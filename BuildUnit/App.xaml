@@ -1,0 +1,35 @@
+﻿<Application x:Class="BuildUnit.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="/Views/LoginWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--Material Design-->
+                <ResourceDictionary
+                    Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Dark.xaml" />
+                <ResourceDictionary
+                    Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary
+                    Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Grey.xaml" />
+                <ResourceDictionary
+                    Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Red.xaml" />
+
+                <!--Themes-->
+                <ResourceDictionary Source="Styles/Themes/DarkTheme.xaml" />
+
+                <!--Fonts-->
+                <ResourceDictionary Source="Styles/Font.xaml" />
+                <!--Styles-->
+                <ResourceDictionary Source="Styles/Controls/NavigationStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/SearchBarStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/TextBoxHintStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/PasswordBoxHintStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/ListBoxStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/ButtonStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/ButtonIconStyle.xaml" />
+                <ResourceDictionary Source="Styles/Controls/ListBoxViewItemStyle.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
