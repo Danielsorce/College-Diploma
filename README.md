@@ -1,6 +1,7 @@
 Скрипт базы создан под MS SQL Server 2022
 
 NuGet пакеты для корректной работы программы: https://mega.nz/file/ZAZGgT5C#M7zcwrCDuQyGzy2I5oMzbew_FzdKdOmz8oTZdxABbJs
+
 Из NuGet пакетов были использованы:
 
 EasyDox от Sergey Slepov версии 2.0.39: https://github.com/bzaar/EasyDox
